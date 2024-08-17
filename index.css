@@ -1,0 +1,74 @@
+*  {
+    margin: 0;
+}
+
+header {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0px 20px;
+}
+
+.action-btn {
+    height: 30px;
+    width: 70px;
+    margin: 0px 10px;
+}
+
+#menu-btn {
+    width: 30px;
+    margin: 0;
+}
+
+#task-complete {
+    width: 70px;
+    height: 70px;
+}
+
+.box-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-main {
+    background-color: red;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 5px;
+}
+
+.box-task {
+    background-color: cornflowerblue;
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.box-check {
+    background-color: blueviolet;
+    height: 100%;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.box-information {
+    background-color: bisque;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.task-information {
+    margin: 10px 5px;
+}
